@@ -1,3 +1,58 @@
-body {
-    color:red;
+* {
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 250px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 30px;
+}
+
+/* Title Styling */
+.title {
+    background-color: #1f2937;
+    padding: 100px 250px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 0px;
+    margin: 10px 0px;
 }
