@@ -8,15 +8,18 @@
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 250px;
+   /* padding: 20px 225px; */
+    gap: 20px;
 }
 
 .header p {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: bolder;
+    flex: 1 0 auto;
+    padding: 20px 225px; 
 }
 
 .header ul {
@@ -24,12 +27,14 @@
     color: #E5E7EB;
     display: flex;
     gap: 30px;
+    flex: 1 0 auto;
+    padding: 20px 225px;
 }
 
 /* Title Styling */
 .title {
     background-color: #1f2937;
-    padding: 100px 250px;
+    padding: 100px 225px;
     display: flex;
     gap: 30px;
     align-items: center;
