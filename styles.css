@@ -8,10 +8,10 @@
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-   /* padding: 20px 225px; */
     gap: 20px;
+    padding: 10px 25px;
 }
 
 .header p {
@@ -19,25 +19,34 @@
     font-size: 24px;
     font-weight: 700;
     flex: 1 0 auto;
-    padding: 20px 225px; 
 }
 
 .header ul {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    justify-content: flex-end;
     gap: 30px;
     flex: 1 0 auto;
-    padding: 20px 225px;
+}
+
+.header ul li {
+    flex: 1 0 auto;
 }
 
 /* Title Styling */
 .title {
     background-color: #1f2937;
-    padding: 100px 225px;
+    padding: 100px 200px;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 450px;
 }
 
 .hero {
@@ -78,6 +87,7 @@
 .info ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap:40px;
     list-style: none;
 }
@@ -118,7 +128,10 @@
 
 /* Call to Action */
 .call {
-    padding:100px 225px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    
 }
 
 .box {
@@ -127,8 +140,10 @@
     display: flex;
     padding: 50px 100px;
     border-radius: 12px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .callheader {
